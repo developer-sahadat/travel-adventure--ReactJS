@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../../Card/Card";
+import Footer from "../../Shear/Footer/Footer";
 import HeroSection from "../HeroSections/HeroSection";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <>
       <HeroSection />
       <Card />
+      <Footer />
     </>
   );
 };
